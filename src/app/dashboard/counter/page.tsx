@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <div>
-      <h1 className="text-center text-2xl font-bold">Messaging System</h1>
+      <h1 className="text-center text-2xl font-bold">Mensajería entre Usuarios </h1>
       <MessageDashboard userId={userId} />
     </div>
   );

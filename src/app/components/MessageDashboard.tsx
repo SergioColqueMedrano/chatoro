@@ -89,7 +89,7 @@ const MessageDashboard = ({ userId }: { userId: number }) => {
           className="border p-2 rounded mb-2 w-full"
         />
         <button className="bg-blue-500 text-white px-4 py-2 rounded" onClick={sendMessage}>
-          Send Message
+          Enviar mensaje
         </button>
       </div>
       <div style={{ display: 'flex', flexDirection: 'column-reverse' }}>
